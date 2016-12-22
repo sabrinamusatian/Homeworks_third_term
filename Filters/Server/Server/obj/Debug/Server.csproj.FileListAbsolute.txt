@@ -1,0 +1,8 @@
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Server\Server\bin\Debug\Server.exe.config
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Server\Server\bin\Debug\Server.exe
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Server\Server\bin\Debug\Server.pdb
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Server\Server\bin\Debug\Contracts.dll
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Server\Server\bin\Debug\Contracts.pdb
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Server\Server\obj\Debug\Server.exe
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Server\Server\obj\Debug\Server.pdb

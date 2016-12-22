@@ -1,0 +1,11 @@
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\bin\Debug\Client.exe.config
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\bin\Debug\Client.exe
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\bin\Debug\Client.pdb
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\bin\Debug\Contracts.dll
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\bin\Debug\Contracts.pdb
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\obj\Debug\Client.FormFilters.resources
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\obj\Debug\Client.exe
+C:\Users\sabrina\Documents\hometasks\FiltersApp\Client\Client\obj\Debug\Client.pdb
