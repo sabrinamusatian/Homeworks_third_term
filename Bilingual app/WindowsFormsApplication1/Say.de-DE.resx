@@ -145,4 +145,10 @@
   <data name="thankYou.Text" xml:space="preserve">
     <value>Dank!</value>
   </data>
+  <data name="comboBox1.Text" xml:space="preserve">
+    <value>Wähle eine Sprache </value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Wählen Sie die Sprache und tippen Sie auf die Schaltfläche, um die russische Übersetzung zu sehen</value>
+  </data>
 </root>

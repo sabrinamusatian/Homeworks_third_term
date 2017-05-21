@@ -19,11 +19,7 @@ namespace WindowsFormsApplication1
         private ResourceManager m_resourceManger = null;
         public Say()
         {
-            m_resourceManger = new ResourceManager("Say.Say",
-                Assembly.GetExecutingAssembly());
             InitializeComponent();
-            comboBox1.Items.Add("English");
-            comboBox1.Items.Add("Deutch");
         }
 
         private void hi_Click(object sender, EventArgs e)
@@ -39,8 +35,6 @@ namespace WindowsFormsApplication1
                 Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("de-DE");
                 Controls.Clear();
                 InitializeComponent();
-                comboBox1.Items.Add("English");
-                comboBox1.Items.Add("Deutch");
             }
             else
             {
@@ -48,8 +42,6 @@ namespace WindowsFormsApplication1
                 Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
                 Controls.Clear();
                 InitializeComponent();
-                comboBox1.Items.Add("English");
-                comboBox1.Items.Add("Deutch");
             }
         }
 

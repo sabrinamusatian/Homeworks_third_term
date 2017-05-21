@@ -120,6 +120,9 @@
   <data name="&gt;&gt;thankYou.Name" xml:space="preserve">
     <value>thankYou</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BiLingual</value>
+  </data>
   <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
     <value>comboBox1</value>
   </data>
@@ -127,9 +130,6 @@
     <value>Ilive</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="thankYou.Location" type="System.Drawing.Point, System.Drawing">
-    <value>550, 370</value>
-  </data>
   <data name="bye.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 370</value>
   </data>
@@ -140,14 +140,14 @@
     <value>Bye!</value>
   </data>
   <data name="&gt;&gt;good.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="soso.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="&gt;&gt;thankYou.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Say</value>
@@ -161,17 +161,20 @@
   <data name="&gt;&gt;Goodbye.Name" xml:space="preserve">
     <value>Goodbye</value>
   </data>
-  <data name="howAreYou.Location" type="System.Drawing.Point, System.Drawing">
-    <value>300, 103</value>
-  </data>
   <data name="&gt;&gt;howAreYou.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Ilive.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="Goodbye.Size" type="System.Drawing.Size, System.Drawing">
     <value>198, 99</value>
+  </data>
+  <data name="&gt;&gt;soso.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="good.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -182,8 +185,8 @@
   <data name="hi.Size" type="System.Drawing.Size, System.Drawing">
     <value>198, 102</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>14, 29</value>
+  <data name="howAreYou.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 103</value>
   </data>
   <data name="&gt;&gt;bye.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -200,11 +203,8 @@
   <data name="Ilive.Text" xml:space="preserve">
     <value>I live in...</value>
   </data>
-  <data name="Ilive.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>329, 37</value>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
   </data>
   <data name="&gt;&gt;bye.Parent" xml:space="preserve">
     <value>$this</value>
@@ -212,14 +212,23 @@
   <data name="&gt;&gt;hi.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;myName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Ilive.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1113, 35</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 31</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="hi.Text" xml:space="preserve">
     <value>Hello!</value>
@@ -227,11 +236,17 @@
   <data name="myName.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
+  <data name="comboBox1.Text" xml:space="preserve">
+    <value>Choose lanuage</value>
+  </data>
   <data name="&gt;&gt;myName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;good.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>14, 29</value>
   </data>
   <data name="good.Text" xml:space="preserve">
     <value>Good</value>
@@ -242,8 +257,11 @@
   <data name="Goodbye.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;Goodbye.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Goodbye.Text" xml:space="preserve">
+    <value>Goodbye!</value>
   </data>
   <data name="hi.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 103</value>
@@ -263,8 +281,11 @@
   <data name="&gt;&gt;soso.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>English</value>
+  </data>
   <data name="&gt;&gt;bye.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="hi.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -272,11 +293,11 @@
   <data name="&gt;&gt;hi.Name" xml:space="preserve">
     <value>hi</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>811, 103</value>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 37</value>
   </data>
   <data name="&gt;&gt;hi.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Goodbye.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -288,17 +309,20 @@
   <data name="thankYou.Text" xml:space="preserve">
     <value>Thank you!</value>
   </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Choose language and tap on the button to see Russian translation</value>
+  </data>
   <data name="&gt;&gt;myName.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="&gt;&gt;thankYou.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;soso.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>811, 103</value>
   </data>
-  <data name="Goodbye.Text" xml:space="preserve">
-    <value>Goodbye!</value>
+  <data name="&gt;&gt;Goodbye.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;howAreYou.Name" xml:space="preserve">
     <value>howAreYou</value>
@@ -322,13 +346,13 @@
     <value>176, 92</value>
   </data>
   <data name="&gt;&gt;Ilive.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="soso.Text" xml:space="preserve">
     <value>So-so</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>BiLingual</value>
+  <data name="thankYou.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 370</value>
   </data>
   <data name="&gt;&gt;myName.Name" xml:space="preserve">
     <value>myName</value>
@@ -342,6 +366,9 @@
   <data name="bye.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
   <data name="myName.Location" type="System.Drawing.Point, System.Drawing">
     <value>550, 103</value>
   </data>
@@ -354,11 +381,14 @@
   <data name="&gt;&gt;bye.Name" xml:space="preserve">
     <value>bye</value>
   </data>
+  <data name="&gt;&gt;myName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Goodbye.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1213, 710</value>
@@ -372,9 +402,15 @@
   <data name="howAreYou.Text" xml:space="preserve">
     <value>How are you?</value>
   </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>Deutch</value>
+  </data>
   <data name="thankYou.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 92</value>
   </data>
+  <metadata name="comboBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

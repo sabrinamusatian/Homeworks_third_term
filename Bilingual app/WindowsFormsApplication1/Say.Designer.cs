@@ -39,6 +39,7 @@
             this.soso = new System.Windows.Forms.Button();
             this.thankYou = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // hi
@@ -107,14 +108,25 @@
             // comboBox1
             // 
             resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1")});
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             // 
             // Say
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.thankYou);
             this.Controls.Add(this.soso);
@@ -125,8 +137,10 @@
             this.Controls.Add(this.myName);
             this.Controls.Add(this.howAreYou);
             this.Controls.Add(this.hi);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Say";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -142,6 +156,7 @@
         private System.Windows.Forms.Button soso;
         private System.Windows.Forms.Button thankYou;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
